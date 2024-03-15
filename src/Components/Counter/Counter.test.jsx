@@ -20,3 +20,6 @@ test('it should increment when the "Increment" button is pressed', async () => {
   // Assert
   expect(counter).toHaveTextContent('1');
 });
+
+test.todo('it should render the component with an initial count', () => {});
+test.todo("it should reset the count when 'Reset' button is pressed", () => {});
